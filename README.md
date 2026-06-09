@@ -5,11 +5,13 @@ AI가 생성하는 한국어 제품 페이지, SaaS 페이지, 대시보드, 포
 핵심 파일:
 
 - [`KOREAN_WEB_COPY.md`](KOREAN_WEB_COPY.md): 입력 분류, 공개 문구 변환, 화면 위치별 문장형, 줄바꿈, 단어 선택, 점검 구조
+- [`KOREAN_SERVICE_PAGE_PATTERNS.md`](KOREAN_SERVICE_PAGE_PATTERNS.md): 한국어 서비스 페이지의 구조, CTA, 문제 제기, 기능 카드, 요금/사례 문구 패턴
 
 ## 사용
 
 ```text
 @KOREAN_WEB_COPY.md를 한국어 웹 문구 기준으로 사용한다.
+@KOREAN_SERVICE_PAGE_PATTERNS.md를 서비스 페이지 구조와 말투 패턴으로 사용한다.
 입력 분류 -> 공개 문구 변환 -> 화면 위치별 문장형 -> 점검 순서로 처리한다.
 페이지가 사용자 요청을 충족한다고 말하지 않는다.
 보편적인 한국어 제품 문구, 의미 단위 줄바꿈, 관찰 가능한 사실만 사용한다.
@@ -21,6 +23,7 @@ AI가 생성하는 한국어 제품 페이지, SaaS 페이지, 대시보드, 포
 - 재사용 가능한 브랜드 문구 모음 아님
 - 출처의 슬로건, 제목, CTA, 고객 주장, 로고, 스크린샷, 제품명 복사 금지
 - 새 페이지 문구는 해당 제품의 사실, 대상, 증거, 제약만 사용
+- 서비스 페이지 패턴은 문장 구조와 정보 순서만 참고
 
 ## 조사 대상
 
@@ -34,3 +37,23 @@ AI가 생성하는 한국어 제품 페이지, SaaS 페이지, 대시보드, 포
 - Samsung SDS
 - SK AX
 - LG CNS
+- Binder HR
+- Daigest
+- Kinkos B2B
+- OpenAds
+- Hulam
+- PayAction
+- Inblog
+- Klat/TalkPlus
+- Trackit
+- Hackle
+- 1Teamworks
+- Insite Story
+- WorkersHigh
+- Tagby
+- Tigris
+- Allibee
+- Featuring
+- Only Webhard
+- CatchMoments
+- Riido
